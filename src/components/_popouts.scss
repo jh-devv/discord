@@ -662,8 +662,10 @@ div[class*="userProfileOuter_"] {
   }
 }
 
-div[class*="userProfileInner_"]::before {
-  background-color: black !important;
+div[class*="userProfileInner_"] {
+  ::before {
+    background-color: black !important;
+  }
 
   div[class*="body_"] {
     div[class*="container_"] {
