@@ -664,10 +664,11 @@ div[class*="userProfileOuter_"] {
 
 div[class*="userProfileInner_"]::before {
   background-color: black !important;
+
   div[class*="body_"] {
     div[class*="container_"] {
       div[class*="usernameRow_"] {
-        div[class*="nickname_"] {
+        h1[class*="nickname_"] {
           color: black;
         }
       }
