@@ -662,6 +662,10 @@ div[class*="userProfileOuter_"] {
   }
 }
 
+div[class*="userProfileInner_"]::before {
+  background-color: black !important;
+}
+
 // Thought bubble
 div[class^="userPopoutInner"] div[class^="statusBubbleOuter"] {
   &:before,
